@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+@theme {
+  --color-ink: #18201d;
+  --color-paper: #f8f7f2;
+  --color-moss: #2f6f55;
+  --color-saffron: #d8972a;
+  --color-clay: #a94e37;
+  --color-ocean: #1f5f7a;
+  --shadow-soft: 0 24px 60px rgba(24, 32, 29, 0.12);
+}
+
+:root {
+  color: var(--color-ink);
+  background: var(--color-paper);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-paper);
+}
+
+::selection {
+  background: var(--color-saffron);
+  color: var(--color-ink);
+}

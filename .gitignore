@@ -1,0 +1,19 @@
+node_modules
+.next
+out
+dist
+*.log
+dev-server.*.log
+.env*
+!.env.example
+.asset-review
+
+# Source materials already transformed into the site.
+KEN PROFILE.docx
+nextjs-llm-instructions.md
+clean up exercise in Ashiam community in Sefwi Bekwai/
+Donation to  orphange home in bibiani/
+more pictures/
+NUGS Farm Initiative/
+Volunteer for the school construction project BITM in the OTI region/
+Youth in Engineering Forum/
