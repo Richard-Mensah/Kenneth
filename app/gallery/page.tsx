@@ -1,4 +1,5 @@
 import GallerySection from "@/components/features/home/GallerySection"
+import PageNav from "@/components/layout/PageNav"
 import { getGalleryImages } from "@/lib/gallery"
 
 export const metadata = {
@@ -12,6 +13,7 @@ export default function GalleryPage() {
   return (
     <main className="pt-16">
       <GallerySection images={galleryImages} />
+      <PageNav current="/gallery" />
     </main>
   )
 }

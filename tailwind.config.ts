@@ -18,7 +18,8 @@ const config: Config = {
         ocean: "#1f5f7a",
       },
       fontFamily: {
-        sans: ["Arial", "Helvetica", "sans-serif"],
+        sans: ["var(--font-sans)", "Arial", "Helvetica", "sans-serif"],
+        serif: ["var(--font-serif)", "Georgia", "Times New Roman", "serif"],
       },
       boxShadow: {
         soft: "0 24px 60px rgba(24, 32, 29, 0.12)",

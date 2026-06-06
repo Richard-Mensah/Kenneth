@@ -1,5 +1,6 @@
 import ContactBand from "@/components/features/home/ContactBand"
 import ProjectsSection from "@/components/features/home/ProjectsSection"
+import PageNav from "@/components/layout/PageNav"
 
 export const metadata = {
   title: "Projects | Kenneth Adu-Akwabeng",
@@ -11,6 +12,7 @@ export default function ProjectsPage() {
     <main className="pt-16">
       <ProjectsSection />
       <ContactBand />
+      <PageNav current="/projects" />
     </main>
   )
 }

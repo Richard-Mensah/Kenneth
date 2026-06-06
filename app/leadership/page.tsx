@@ -1,5 +1,6 @@
 import LeadershipSection from "@/components/features/home/LeadershipSection"
 import ContactBand from "@/components/features/home/ContactBand"
+import PageNav from "@/components/layout/PageNav"
 
 export const metadata = {
   title: "Leadership | Kenneth Adu-Akwabeng",
@@ -11,6 +12,7 @@ export default function LeadershipPage() {
     <main className="pt-16">
       <LeadershipSection />
       <ContactBand />
+      <PageNav current="/leadership" />
     </main>
   )
 }

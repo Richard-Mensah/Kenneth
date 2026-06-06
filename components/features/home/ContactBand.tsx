@@ -7,7 +7,7 @@ export default function ContactBand() {
       <div className="mx-auto flex max-w-7xl flex-col gap-8 md:flex-row md:items-center md:justify-between">
         <div className="max-w-2xl">
           <Handshake aria-hidden="true" className="h-8 w-8 text-saffron" />
-          <h2 className="mt-5 text-3xl font-semibold leading-tight sm:text-4xl">
+          <h2 className="mt-5 font-serif text-3xl font-semibold leading-tight sm:text-4xl">
             Open to partnerships in mentorship, construction, youth development, and governance.
           </h2>
           <p className="mt-4 text-base leading-7 text-white/75">

@@ -1,6 +1,7 @@
 "use client"
 
 import { ArrowRight } from "lucide-react"
+import Image from "next/image"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
@@ -20,8 +21,18 @@ export default function Navbar() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/15 bg-ink/70 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 text-white sm:px-6 lg:px-8">
-        <Link href="/" className="text-sm font-semibold uppercase tracking-normal">
-          KAA
+        <Link href="/" className="flex items-center gap-2.5" aria-label="Kenneth Adu-Akwabeng — home">
+          <Image
+            src="/logo.png"
+            alt="Kenneth Adu-Akwabeng logo"
+            width={40}
+            height={40}
+            priority
+            className="h-10 w-10 rounded-md object-contain"
+          />
+          <span className="hidden text-sm font-semibold tracking-tight sm:inline">
+            Kenneth Adu-Akwabeng
+          </span>
         </Link>
         <div className="hidden items-center gap-7 text-sm font-medium md:flex">
           {NAV_ITEMS.map((item) => (

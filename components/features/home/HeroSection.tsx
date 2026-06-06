@@ -19,7 +19,7 @@ export default function HeroSection() {
           <p className="text-sm font-semibold uppercase text-saffron">
             Leadership | Engineering | Law | Technology
           </p>
-          <h1 className="mt-5 text-5xl font-semibold leading-[0.98] sm:text-6xl lg:text-7xl">
+          <h1 className="mt-5 font-serif text-5xl font-semibold leading-[0.98] sm:text-6xl lg:text-7xl">
             Kenneth Adu-Akwabeng
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-white/80">
