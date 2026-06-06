@@ -11,9 +11,9 @@ export default function ProjectsSection() {
       <div className="mx-auto max-w-7xl">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <SectionHeader
-            eyebrow="Projects"
-            title="Featured work across mentorship, education, welfare, and engineering."
-            description="Each initiative reflects a practical view of leadership: convene people, unlock resources, and leave communities stronger."
+            eyebrow="Selected work"
+            title="Recent initiatives, up close."
+            description="Four projects that show how mentorship, education, welfare, and engineering come together on the ground."
           />
           <Link
             href="/gallery"
@@ -36,7 +36,7 @@ export default function ProjectsSection() {
                 />
               </div>
               <div className="flex flex-1 flex-col p-5">
-                <p className="text-sm font-bold uppercase text-moss">{project.category}</p>
+                <p className="text-sm font-bold uppercase tracking-wide text-gold">{project.category}</p>
                 <h3 className="mt-2 font-serif text-2xl font-semibold text-ink">{project.title}</h3>
                 <p className="mt-3 text-sm leading-6 text-ink/70">{project.description}</p>
                 <Link

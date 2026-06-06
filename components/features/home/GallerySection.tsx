@@ -1,27 +1,28 @@
 import type { GalleryImage } from "@/types"
 
-import SectionHeader from "@/components/ui/SectionHeader"
-
 type Props = {
   images: GalleryImage[]
 }
 
 export default function GallerySection({ images }: Props) {
   return (
-    <section id="gallery" className="bg-white px-4 py-20 sm:px-6 lg:px-8">
+    <section id="gallery" className="bg-white px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
       <div className="mx-auto max-w-7xl">
-        <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-          <SectionHeader
-            eyebrow="Gallery"
-            title="Moments from community action, leadership rooms, and youth development work."
-            description="A visual record of mentorship, community service, and leadership across Ghana."
-          />
-        </div>
-        <div className="mt-10 columns-1 gap-5 sm:columns-2 lg:columns-3 xl:columns-4">
+        <div className="columns-1 gap-4 sm:columns-2 sm:gap-5 lg:columns-3 xl:columns-4">
           {images.map((image) => (
-            <figure key={image.fileName} className="mb-5 break-inside-avoid overflow-hidden rounded-lg border border-ink/10 bg-paper">
-              <img src={image.src} alt={image.alt} loading="lazy" className="h-auto w-full object-cover" />
-              <figcaption className="px-3 py-3 text-xs font-semibold text-ink/65">{image.category}</figcaption>
+            <figure
+              key={image.fileName}
+              className="group relative mb-4 break-inside-avoid overflow-hidden rounded-xl border border-navy/10 bg-cream sm:mb-5"
+            >
+              <img
+                src={image.src}
+                alt={image.alt}
+                loading="lazy"
+                className="h-auto w-full object-cover transition duration-500 group-hover:scale-[1.03]"
+              />
+              <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/85 to-transparent px-3 pb-3 pt-10 text-xs font-semibold text-white">
+                {image.category}
+              </figcaption>
             </figure>
           ))}
         </div>

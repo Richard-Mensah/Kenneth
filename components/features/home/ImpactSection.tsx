@@ -8,9 +8,9 @@ export default function ImpactSection() {
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-end">
           <SectionHeader
-            eyebrow="Impact"
-            title="Leadership measured through people reached and projects moved forward."
-            description="The work spans scholarship advocacy, student leadership, community welfare, school infrastructure, and behavioral change campaigns."
+            eyebrow="By the numbers"
+            title="Outcomes that show up in people's lives."
+            description="A few measures of work that spans scholarship advocacy, student leadership, community welfare, and school infrastructure."
           />
           <div className="grid gap-4 md:grid-cols-3">
             {STATS.map((stat) => (

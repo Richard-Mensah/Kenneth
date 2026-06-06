@@ -1,8 +1,7 @@
-import ContactBand from "@/components/features/home/ContactBand"
 import ImpactSection from "@/components/features/home/ImpactSection"
-import ProjectsSection from "@/components/features/home/ProjectsSection"
 import ImpactPillars from "@/components/features/impact/ImpactPillars"
 import PageNav from "@/components/layout/PageNav"
+import PageHeader from "@/components/ui/PageHeader"
 
 export const metadata = {
   title: "Impact | Kenneth Adu-Akwabeng",
@@ -11,11 +10,14 @@ export const metadata = {
 
 export default function ImpactPage() {
   return (
-    <main className="pt-16">
+    <main>
+      <PageHeader
+        eyebrow="Impact"
+        title="Leadership measured through people reached and projects moved forward."
+        description="Scholarship advocacy, student leadership, community welfare, school infrastructure, and behavioral change — work that ladders up to four clear pillars."
+      />
       <ImpactSection />
       <ImpactPillars />
-      <ProjectsSection />
-      <ContactBand />
       <PageNav current="/impact" />
     </main>
   )

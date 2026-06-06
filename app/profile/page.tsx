@@ -1,6 +1,6 @@
-import LeadershipSection from "@/components/features/home/LeadershipSection"
 import ProfileSection from "@/components/features/home/ProfileSection"
 import PageNav from "@/components/layout/PageNav"
+import PageHeader from "@/components/ui/PageHeader"
 
 export const metadata = {
   title: "Profile | Kenneth Adu-Akwabeng",
@@ -9,9 +9,13 @@ export const metadata = {
 
 export default function ProfilePage() {
   return (
-    <main className="pt-16">
+    <main>
+      <PageHeader
+        eyebrow="Profile"
+        title="Engineering, law, and leadership in service of community."
+        description="A young Ghanaian leader connecting technical training with public leadership and practical social impact."
+      />
       <ProfileSection />
-      <LeadershipSection />
       <PageNav current="/profile" />
     </main>
   )

@@ -2,18 +2,26 @@
 @config "../tailwind.config.ts";
 
 @theme {
-  --color-ink: #18201d;
-  --color-paper: #f8f7f2;
-  --color-moss: #2f6f55;
+  /* Brand palette — navy + gold + cream (matches the logo). */
+  --color-navy: #14233f;
+  --color-navy-700: #1d3357;
+  --color-gold: #d8972a;
+  --color-gold-soft: #e7b85c;
+  --color-cream: #f7f5ef;
+  --color-slate: #5b6b85;
+  /* Legacy aliases remapped to the new palette. */
+  --color-ink: #14233f;
+  --color-paper: #f7f5ef;
+  --color-moss: #14233f;
   --color-saffron: #d8972a;
-  --color-clay: #a94e37;
-  --color-ocean: #1f5f7a;
-  --shadow-soft: 0 24px 60px rgba(24, 32, 29, 0.12);
+  --color-clay: #d8972a;
+  --color-ocean: #1d3357;
+  --shadow-soft: 0 24px 60px rgba(20, 35, 63, 0.14);
 }
 
 :root {
-  color: var(--color-ink);
-  background: var(--color-paper);
+  color: var(--color-navy);
+  background: var(--color-cream);
 }
 
 * {

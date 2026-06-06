@@ -8,9 +8,9 @@ export default function LeadershipSection() {
     <section className="bg-ink px-4 py-20 text-white sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <SectionHeader
-          eyebrow="Leadership"
-          title="A record of service across student, youth, union, NGO, and corporate spaces."
-          description="Kenneth's roles show a consistent pattern: organize people, manage stakeholders, and turn leadership platforms into development outcomes."
+          eyebrow="The record"
+          title="Every role, grouped by where it happened."
+          description="From student government to corporate boards and global NGOs — a consistent pattern of organizing people and turning platforms into outcomes."
           tone="dark"
         />
 

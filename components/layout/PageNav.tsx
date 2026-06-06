@@ -75,7 +75,7 @@ export default function PageNav({ current }: Props) {
           {next ? (
             <Link
               href={next.href}
-              className="group flex items-center justify-end gap-4 rounded-lg border border-ink/10 bg-ink p-5 text-right text-white shadow-soft transition hover:bg-moss sm:col-start-2"
+              className="group flex items-center justify-end gap-4 rounded-lg border border-navy/10 bg-navy p-5 text-right text-white shadow-soft transition hover:bg-navy-700 sm:col-start-2"
             >
               <span>
                 <span className="block text-xs font-semibold uppercase tracking-wide text-saffron">

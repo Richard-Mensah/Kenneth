@@ -1,7 +1,7 @@
-import ContactBand from "@/components/features/home/ContactBand"
 import ProjectsSection from "@/components/features/home/ProjectsSection"
 import ProjectAreas from "@/components/features/projects/ProjectAreas"
 import PageNav from "@/components/layout/PageNav"
+import PageHeader from "@/components/ui/PageHeader"
 
 export const metadata = {
   title: "Projects | Kenneth Adu-Akwabeng",
@@ -10,10 +10,14 @@ export const metadata = {
 
 export default function ProjectsPage() {
   return (
-    <main className="pt-16">
+    <main>
+      <PageHeader
+        eyebrow="Projects"
+        title="Featured work across mentorship, education, welfare, and engineering."
+        description="Each initiative reflects a practical view of leadership: convene people, unlock resources, and leave communities stronger."
+      />
       <ProjectsSection />
       <ProjectAreas />
-      <ContactBand />
       <PageNav current="/projects" />
     </main>
   )

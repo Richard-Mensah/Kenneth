@@ -10,12 +10,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#18201d",
-        paper: "#f8f7f2",
-        moss: "#2f6f55",
-        saffron: "#d8972a",
-        clay: "#a94e37",
-        ocean: "#1f5f7a",
+        // Brand palette — navy + gold + cream (matches the logo).
+        navy: "#14233f",
+        "navy-700": "#1d3357",
+        gold: "#d8972a",
+        "gold-soft": "#e7b85c",
+        cream: "#f7f5ef",
+        slate: "#5b6b85",
+        // Legacy token names kept as aliases so existing classes recolour to the new palette.
+        ink: "#14233f", // -> navy
+        paper: "#f7f5ef", // -> cream
+        moss: "#14233f", // -> navy
+        saffron: "#d8972a", // -> gold
+        clay: "#d8972a", // -> gold
+        ocean: "#1d3357", // -> navy-700
       },
       fontFamily: {
         sans: ["var(--font-sans)", "Arial", "Helvetica", "sans-serif"],

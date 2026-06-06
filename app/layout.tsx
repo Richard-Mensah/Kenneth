@@ -19,7 +19,7 @@ const playfair = Playfair_Display({
 
 // TODO: update this to your real deployed domain (e.g. https://kennethaduakwabeng.com).
 // It is used to build absolute URLs for the favicon, social-share preview, and Google.
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://kennethaduakwabeng.com"
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://adukenneth.egamentorship.org"
 
 const SITE_TITLE = "Kenneth Adu-Akwabeng | Leadership, Engineering & Social Impact"
 const SITE_DESCRIPTION =

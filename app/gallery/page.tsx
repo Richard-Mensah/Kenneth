@@ -1,5 +1,6 @@
 import GallerySection from "@/components/features/home/GallerySection"
 import PageNav from "@/components/layout/PageNav"
+import PageHeader from "@/components/ui/PageHeader"
 import { getGalleryImages } from "@/lib/gallery"
 
 export const metadata = {
@@ -11,7 +12,12 @@ export default function GalleryPage() {
   const galleryImages = getGalleryImages()
 
   return (
-    <main className="pt-16">
+    <main>
+      <PageHeader
+        eyebrow="Gallery"
+        title="Moments from community action, leadership rooms, and youth development."
+        description="A visual record of mentorship, community service, and leadership across Ghana."
+      />
       <GallerySection images={galleryImages} />
       <PageNav current="/gallery" />
     </main>

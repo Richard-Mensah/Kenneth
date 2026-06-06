@@ -16,10 +16,10 @@ export default function HeroSection() {
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-ink/85 via-ink/60 to-ink/25" />
       <div className="mx-auto grid w-full max-w-7xl gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-end">
         <div className="max-w-3xl">
-          <p className="text-sm font-semibold uppercase text-saffron">
-            Leadership | Engineering | Law | Technology
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-gold sm:text-sm">
+            Leadership · Engineering · Law · Technology
           </p>
-          <h1 className="mt-5 font-serif text-5xl font-semibold leading-[0.98] sm:text-6xl lg:text-7xl">
+          <h1 className="mt-5 font-serif text-4xl font-semibold leading-[1.02] sm:text-6xl lg:text-7xl">
             Kenneth Adu-Akwabeng
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-white/80">

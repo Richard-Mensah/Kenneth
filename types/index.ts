@@ -31,3 +31,9 @@ export type GalleryImage = {
   category: string
   fileName: string
 }
+
+export type Social = {
+  label: string
+  href: string
+  icon: "Linkedin" | "Facebook" | "Twitter" | "Instagram" | "Youtube" | "Mail"
+}

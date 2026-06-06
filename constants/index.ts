@@ -1,4 +1,26 @@
-import type { Pillar, Project, Role, Stat } from "@/types"
+import type { Pillar, Project, Role, Social, Stat } from "@/types"
+
+export const CONTACT = {
+  email: "aduakwabeng@gmail.com",
+  phone: "+233 55 986 1603",
+  whatsapp: "233559861603", // digits only, used for wa.me link
+  location: "Ghana",
+}
+
+export const SOCIALS: Social[] = [
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/kenneth-adu-akwabeng-",
+    icon: "Linkedin",
+  },
+  { label: "Facebook", href: "https://www.facebook.com/kweku.ken.10/", icon: "Facebook" },
+]
+
+export const MISSION =
+  "Built to amplify visionary youth leaders and the change they create across Africa."
+
+export const CREDIT =
+  "Designed by EGA Mentorship International · Sponsored by Global Director, Richard Mensah."
 
 export const PROFILE_INTRO = [
   "Kenneth Adu-Akwabeng is a young Ghanaian leader, civil engineering graduate, and emerging legal professional working across leadership, technology, governance, and community development.",
