@@ -1,5 +1,5 @@
 import ContactBand from "@/components/features/home/ContactBand"
-import GallerySection from "@/components/features/home/GallerySection"
+import FieldMarquee from "@/components/features/home/FieldMarquee"
 import HeroSection from "@/components/features/home/HeroSection"
 import ImpactSection from "@/components/features/home/ImpactSection"
 import LeadershipSection from "@/components/features/home/LeadershipSection"
@@ -18,7 +18,7 @@ export default function HomePage() {
       <ImpactSection />
       <ProjectsSection />
       <LeadershipSection />
-      <GallerySection images={galleryImages} />
+      <FieldMarquee images={galleryImages} />
       <ContactBand />
       <PageNav current="/" />
     </main>
