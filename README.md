@@ -8,6 +8,19 @@ Built with Next.js (App Router), React, TypeScript, and Tailwind CSS. The design
 
 ---
 
+## 📸 Screenshots
+
+### Home — Hero
+![Home hero](docs/screenshots/home-hero.png)
+
+### Home — Profile teaser
+![Profile teaser](docs/screenshots/home-profile.png)
+
+### Footer — contact & credits
+![Footer](docs/screenshots/footer.png)
+
+---
+
 ## ✨ Features
 
 - **Navy & gold brand theme** matching the logo, with cream backgrounds and a refined editorial feel.
