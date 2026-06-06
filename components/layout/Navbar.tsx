@@ -8,6 +8,7 @@ import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 
 const NAV_ITEMS = [
+  { label: "Home", href: "/" },
   { label: "Profile", href: "/profile" },
   { label: "Impact", href: "/impact" },
   { label: "Projects", href: "/projects" },

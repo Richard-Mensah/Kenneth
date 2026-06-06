@@ -7,7 +7,14 @@ export type Stat = {
 export type Role = {
   title: string
   organization: string
+  sector: string
   period?: string
+}
+
+export type Pillar = {
+  title: string
+  description: string
+  icon: "GraduationCap" | "HeartHandshake" | "Users" | "HardHat" | "Scale" | "Cpu"
 }
 
 export type Project = {

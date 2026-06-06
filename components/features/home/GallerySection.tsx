@@ -14,9 +14,8 @@ export default function GallerySection({ images }: Props) {
           <SectionHeader
             eyebrow="Gallery"
             title="Moments from community action, leadership rooms, and youth development work."
-            description={`${images.length} images are included from the project folders, including the remaining photos not featured above.`}
+            description="A visual record of mentorship, community service, and leadership across Ghana."
           />
-          <p className="text-sm font-semibold text-ink/55">{images.length} photos</p>
         </div>
         <div className="mt-10 columns-1 gap-5 sm:columns-2 lg:columns-3 xl:columns-4">
           {images.map((image) => (
